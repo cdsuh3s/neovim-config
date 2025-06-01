@@ -70,6 +70,9 @@ require('lualine').setup {
   extensions = {}
 }
 
+-- plugins settings
+require("config.LuaSnip")
+
 -- Neovide Settings
 if vim.g.neovide then
   vim.o.guifont = "cascadia code:h13"
