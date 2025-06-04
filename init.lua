@@ -26,6 +26,9 @@ vim.opt.splitbelow = true
 -- Colorscheme
 vim.cmd[[colorscheme tokyonight]]
 
+-- Set-up plugins
+require("config.neo-tree")
+
 -- lualine.nvim setup
 require('lualine').setup {
   options = {
